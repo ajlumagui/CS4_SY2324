@@ -9,6 +9,6 @@ package Activity1;
  *
  * @author TRUTH
  */
-public class abcac {
+public class exercise1 {
     
 }
