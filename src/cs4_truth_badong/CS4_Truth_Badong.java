@@ -17,7 +17,8 @@ public class CS4_Truth_Badong {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        System.out.println("eula > ayaka");
+        String facts = "eula > ayaka";
+        System.out.println(facts + " no diff");
         
                 
     }
