@@ -8,9 +8,13 @@ package Exercise2;
  *
  * @author TRUTH
  */
-public class Song {
-    String title;
-    public Song(String n){
-        title = n;
+public class Person {
+    String name;
+    String birthday;
+
+    
+    public Person(String n, String b) {
+        name = n;
+        birthday = b;
     }
 }

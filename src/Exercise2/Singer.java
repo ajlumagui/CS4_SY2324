@@ -14,10 +14,17 @@ public class Singer {
     double earnings;
     Song favoriteSong;
     public Singer(String n, int p, double e, Song s) {
+        name = n;
+        noOfPerformances = p;
+        earnings = e;
+        favoriteSong = s;
     }
     public void performForAudience(int n){
         noOfPerformances++;
         earnings += n*100;
+        
+        System.out.println("Performed for " + n + " people!");
+        System.out.println("Earned " + earnings + "!");
     }
     public void changeFavSong(Song a){
         favoriteSong = a;
