@@ -11,8 +11,8 @@ package Exercise6;
 public class WaterType extends SimpleMonster{
     public WaterType(String n, int m, int b){
         super(n, "Water", "Fire", "Grass", m, b);
-        atk *= 0.7 * b;
-        def *= 1.3 * b;
+        atk *= 0.7;
+        def *= 1.3;
     }
     
     @Override

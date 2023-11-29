@@ -12,8 +12,8 @@ package Exercise6;
 public class FireType extends SimpleMonster{
     public FireType(String n, int m, int b){
         super(n, "Fire", "Grass", "Water", m, b);
-        atk *= 1.3 * b;
-        def *= 0.7 * b;
+        atk *= 1.3;
+        def *= 0.7;
     }
     
     @Override
